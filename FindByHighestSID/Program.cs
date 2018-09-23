@@ -18,6 +18,7 @@ namespace FindByHighestSID
         {
             List<string> foundUser = new List<string>();
 
+            Console.WriteLine("Active Directory Tool to sort all Users by SID");
 
             Console.WriteLine("IP");
             string ip = Console.ReadLine();
